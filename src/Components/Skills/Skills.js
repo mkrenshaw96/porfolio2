@@ -1,4 +1,5 @@
 import React from 'react';
+import RESUME from './Assets/Michael_Crenshaw_Resume.pdf';
 import './Skills.css';
 
 const Skills = () => {
@@ -36,15 +37,16 @@ const Skills = () => {
                     <ul>
                         <li>Invision Studio</li>
                         <li>Dribble</li>
-                        <li><a href="https://codepen.io/__mkc/">Codepen</a></li>
+                        <li><a href="https://codepen.io/__mkc/" target='blank'>Codepen</a></li>
                     </ul>
                 </div>
                 <div className='col'>
                     <span className='title'>Network</span>
                     <ul>
                         <li><a href="mailto: mkrenshaw96@gmail.com">Email</a></li>
-                        <li><a href="https://www.linkedin.com/in/michael-crenshaw/">Linkedin</a></li>
-                        <li><a href="https://github.com/mkrenshaw96">Github</a></li>
+                        <li><a href={RESUME} target='blank'>Resume</a></li>
+                        <li><a href="https://www.linkedin.com/in/michael-crenshaw/" target='blank'>Linkedin</a></li>
+                        <li><a href="https://github.com/mkrenshaw96" target='blank'>Github</a></li>
                     </ul>
                 </div>
             </div>

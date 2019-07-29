@@ -1,7 +1,7 @@
 #logo{
     height: 40px;
     width: 40px;
-    background: black;
+    background: rgb(20, 20, 20);
     color: white;
     font-size: 2rem;
     display: flex;
@@ -18,11 +18,24 @@
     align-items: center;
 }
 .greeting{
-    margin-top: 7vh;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     font-family: 'Jura', sans-serif;
     font-weight: 500;
+    margin: 20vh 0vh;
 }
 .width{
     width: 80vw;
+}
+
+@media (min-width: 768px){
+    #head-wrapper{
+        margin: 20vh auto;
+    }
+    .greeting{
+        font-size: 2.5rem;
+        font-family: 'Jura', sans-serif;
+        font-weight: 500;
+        margin: 15vh 0vh;
+    }
+     
 }
