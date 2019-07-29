@@ -1,0 +1,28 @@
+#skills-wrapper{
+    width: 80vw;
+    display: flex;
+    margin:auto;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+}
+
+.col{
+    width: 35vw;
+}
+
+.title{
+    color: grey;
+    font-family: 'Jura', sans-serif;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left:0px;
+    margin-left:0px;
+}
+
+li{
+    margin-top: 20px;
+    font-size: .9rem;
+}
